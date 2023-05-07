@@ -27,3 +27,10 @@ The extracted equations are:
 - $$\text{id:}2 \Rightarrow \ell=F_{2}(F_{1}(\mathbf{u},\Theta_{1}),\Theta_{2})$$
 - $$\text{id:}3 \Rightarrow {\frac{1}{m}}{\frac{\partial\ell(\mathbf{x}_{i},\Phi)}{\partial\Theta}}$$
 - $$\text{id:}4 \Rightarrow \ell=F_{2}(\cdot)$$
+
+## Things to do
+
+- [ ] Add a notebook to extract equations from the paper.
+- [ ] Implement a GPU version of the code.
+- [ ] Upload it to the `colab`
+- [ ] Find a way to use inference `LaTeX-OCR` in batch mode.
