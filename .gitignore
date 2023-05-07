@@ -1,0 +1,12 @@
+# from ScanSSD
+*.math
+*.pmath
+
+*.pth
+
+*.pdf
+
+__pycache__/
+images/
+temp_images/
+.DS_Store
