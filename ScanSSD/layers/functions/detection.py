@@ -30,6 +30,11 @@ class Detect(Function):
             prior_data: (tensor) Prior boxes and variances from priorbox layers
                 Shape: [1,num_priors,4]
         """
+        # move to CPU
+        loc_data = loc_data.cpu()
+        conf_data = conf_data.cpu()
+        prior_data = prior_data.cpu()
+
         num = loc_data.size(0)  # batch size
         num_priors = prior_data.size(0)
         output = torch.zeros(num, self.num_classes, self.top_k, 5)
