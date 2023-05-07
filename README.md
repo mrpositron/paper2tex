@@ -1,11 +1,14 @@
 # Paper2Tex
 
-The following project is a tool to extract equation from the research paper and convert it into latex code. 
+The following project is a tool to extract equations from the research paper and convert it into latex code. 
 
 This project is heavily utilizes the following projects:
 
 - [ScanSSD: Scanning Single Shot Detector for Math in Document Images](https://github.com/MaliParag/ScanSSD)
+- [ScanSSD (fork)](https://github.com/jjdredd/ScanSSD/)
 - [pix2tex - LaTeX OCR](https://github.com/lukas-blecher/LaTeX-OCR/)
+
+Credit goes to the authors of the above projects, [@MaliParag](https://github.com/MaliParag), [@lukas-blecher](https://github.com/lukas-blecher/LaTeX-OCR/), [@jjdredd](https://github.com/jjdredd).
 
 ## Example
 
