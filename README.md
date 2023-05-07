@@ -14,8 +14,8 @@ This project is heavily utilizes the following projects:
 Extracted equations are in boxes with yellow border. In top left corner of each box, there is a number which is the id of the equation, and on the top right corner.  
 The extracted equations are:
 
-- $\text{id:}0 \rightarrow {\frac{1}{N}}\sum_{i=1}^{N}\ell(\mathbf{x}_{i},\Theta)$    
-- $\text{id:}1 \rightarrow \Theta_{2}\leftarrow\Theta_{2}-\frac{\alpha}{m}\sum_{i=1}^{m}\frac{\partial F_{2}({\bf x}_{i},\Theta_{2})}{\partial\Theta_{2}}$    
-- $\text{id:}2 \rightarrow \ell=F_{2}(F_{1}(\mathbf{u},\Theta_{1}),\Theta_{2})$    
-- $\text{id:}3 \rightarrow {\frac{1}{m}}{\frac{\partial\ell(\mathbf{x}_{i},\Phi)}{\partial\Theta}}$    
-- $\text{id:}4 \rightarrow \ell=F_{2}(\cdot)$    
+- $$\text{id:}0 \Rightarrow {\frac{1}{N}}\sum_{i=1}^{N}\ell(\mathbf{x}_{i},\Theta)$$
+- $$\text{id:}1 \Rightarrow \Theta\_{2}\leftarrow\Theta\_{2}-\frac{\alpha}{m}\sum\_{i=1}^{m}\frac{\partial F\_{2}({\bf x}_{i},\Theta\_{2})}{\partial\Theta\_{2}}$$      
+- $$\text{id:}2 \Rightarrow \ell=F_{2}(F_{1}(\mathbf{u},\Theta_{1}),\Theta_{2})$$
+- $$\text{id:}3 \Rightarrow {\frac{1}{m}}{\frac{\partial\ell(\mathbf{x}_{i},\Phi)}{\partial\Theta}}$$
+- $$\text{id:}4 \Rightarrow \ell=F_{2}(\cdot)$$
