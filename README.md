@@ -10,6 +10,11 @@ This project is heavily utilizes the following projects:
 
 Credit goes to the authors of the above projects, [@MaliParag](https://github.com/MaliParag), [@lukas-blecher](https://github.com/lukas-blecher/LaTeX-OCR/), [@jjdredd](https://github.com/jjdredd).
 
+## How to use?
+
+`paper2tex.ipynb` is the main notebook. It contains the code to extract equations from the paper. The notebook is self explanatory. (it will be added soon) 
+
+
 ## Example
 
 <img src="./demo/page3.jpg" alt= “” width = "512" >
