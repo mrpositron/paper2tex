@@ -10,4 +10,4 @@ This project is heavily utilizes the following projects:
 
 ## Example
 
-<img src="/Users/mrpositron/coding/spring23/paper2tex/demo/page3.jpg" alt= “” width = "512" >
+<img src="/demo/page3.jpg" alt= “” width = "512" >
