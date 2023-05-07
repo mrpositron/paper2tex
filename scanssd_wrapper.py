@@ -71,6 +71,7 @@ def FixImgCoordinates (images, boxes):
 class MathDetector():
 
     def __init__(self, weight_path, args):
+        self._args = args
         net = build_ssd(args, 'test', config.exp_cfg[args.cfg], 0, args.model_type, num_classes = 2)
         self._net = net # nn.DataParallel(net)
         weights = torch.load(weight_path, map_location = torch.device('cpu'))
@@ -93,7 +94,7 @@ class MathDetector():
         boxes = []
         scores = []
 
-        if args.cuda and torch.cuda.is_available():
+        if self._args.cuda and torch.cuda.is_available():
             images = images.cuda()
         y, debug_boxes, debug_scores = self._net(images)  # forward pass
 
