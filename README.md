@@ -1,5 +1,8 @@
 # Paper2Tex
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1AXFDdhkypYQkBOpZ8MLpHHzDfI86R8Ba?usp=sharing)
+
+
 The following project is a tool to extract equations from the research paper and convert it into latex code. 
 
 This project is heavily utilizes the following projects:
@@ -12,7 +15,7 @@ Credit goes to the authors of the above projects, [@MaliParag](https://github.co
 
 ## How to use?
 
-`paper2tex.ipynb` is the main notebook. It contains the code to extract equations from the paper. The notebook is self explanatory. (it will be added soon) 
+`paper2tex.ipynb` is the main notebook. It contains the code to extract equations from the paper. The notebook is self explanatory.
 
 
 ## Example
@@ -30,7 +33,7 @@ The extracted equations are:
 
 ## Things to do
 
-- [ ] Add a notebook to extract equations from the paper.
-- [ ] Implement a GPU version of the code.
-- [ ] Upload it to the `colab`
+- [x] Add a notebook to extract equations from the paper.
+- [x] Implement a GPU version of the code.
+- [x] Upload it to the `colab`
 - [ ] Find a way to use inference `LaTeX-OCR` in batch mode.
