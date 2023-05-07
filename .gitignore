@@ -1,10 +1,7 @@
-# from ScanSSD
 *.math
 *.pmath
 
 *.pth
-
-*.pdf
 
 __pycache__/
 images/

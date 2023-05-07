@@ -81,6 +81,10 @@ class MathDetector():
             new_weights[name] = v
 
         self._net.load_state_dict(new_weights)
+
+        if args.cuda and torch.cuda.is_available():
+            self._net = self._net.cuda()
+
         self._net.eval()
 
     @torch.no_grad()
@@ -89,8 +93,11 @@ class MathDetector():
         boxes = []
         scores = []
 
+        if args.cuda and torch.cuda.is_available():
+            images = images.cuda()
         y, debug_boxes, debug_scores = self._net(images)  # forward pass
 
+        y, debug_boxes, debug_scores = y.cpu(), debug_boxes.cpu(), debug_scores.cpu()
         detections = y.data
 
         for k in range(len(images)):

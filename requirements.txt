@@ -1,3 +1,4 @@
 torch
 torchvision
 pix2tex
+pdf2image
