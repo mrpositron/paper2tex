@@ -3,7 +3,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1AXFDdhkypYQkBOpZ8MLpHHzDfI86R8Ba?usp=sharing)
 
 
-The following project is a tool to extract equations from the research paper and convert it into latex code. 
+The following project is a tool to extract equations from the research papers (images, PDFs, etc.) and convert it into latex code. 
 
 This project is heavily utilizes the following projects:
 
@@ -37,3 +37,4 @@ The extracted equations are:
 - [x] Implement a GPU version of the code.
 - [x] Upload it to the `colab`
 - [ ] Find a way to use inference `LaTeX-OCR` in batch mode.
+- [ ] Detect paper borders
