@@ -1,4 +1,5 @@
-# Paper2Tex
+# Paper2Tex (discontinued) 
+## Check [Nougat: Neural Optical Understanding for Academic Documents](https://github.com/facebookresearch/nougat) 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1AXFDdhkypYQkBOpZ8MLpHHzDfI86R8Ba?usp=sharing)
 
